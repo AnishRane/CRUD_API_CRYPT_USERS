@@ -30,7 +30,7 @@ class CryptDevs(db.Model):
         self.Platform = Platform
         self.testNetBal = testNetBal
 
-#Product Schema
+#Developers Schema
 class DevSchema(ma.Schema):
     class Meta:
         fields =('id','name','Platform','testNetBal')
